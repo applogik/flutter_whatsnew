@@ -1,9 +1,9 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=/usr/local/Caskroom/flutter/1.2.1/flutter"
-export "FLUTTER_APPLICATION_PATH=/Users/rodydavis/Developer/GitHub/plugins/packages/flutter_whatsnew/example"
+export "FLUTTER_ROOT=C:\Users\rebar\fvm\versions\stable"
+export "FLUTTER_APPLICATION_PATH=C:\Users\rebar\Documents\Development\flutter_whatsnew\example"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
-export "FLUTTER_TARGET=lib/main.dart"
+export "FLUTTER_TARGET=lib\main.dart"
 export "FLUTTER_BUILD_DIR=build"
 export "FLUTTER_BUILD_NAME=1.0.0"
 export "FLUTTER_BUILD_NUMBER=1"

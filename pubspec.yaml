@@ -11,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_markdown: ^0.2.0
+  flutter_markdown: ^0.6.10
 
 dev_dependencies:
   flutter_test:
@@ -19,6 +19,5 @@ dev_dependencies:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
-
 # The following section is specific to Flutter.
-flutter:
+flutter: null
