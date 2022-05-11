@@ -1,12 +1,6 @@
 [![Flutter Community: flutter_whatsnew](https://fluttercommunity.dev/_github/header/flutter_whatsnew)](https://github.com/fluttercommunity/community)
 
-[![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-yellow.svg)](https://www.buymeacoffee.com/rodydavis)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WSH3GVC49GNNJ)
-![github pages](https://github.com/fluttercommunity/flutter_whatsnew/workflows/github%20pages/badge.svg)
-
 # flutter_whatsnew
-
-[![pub package](https://img.shields.io/pub/v/flutter_whatsnew.svg)](https://pub.dartlang.org/packages/flutter_whatsnew)
 
 A Flutter Plugin to Show a Whats New page. 
 
