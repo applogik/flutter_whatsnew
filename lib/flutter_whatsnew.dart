@@ -57,7 +57,7 @@ class WhatsNewPage extends StatelessWidget {
         title: Text(title),
         content: Text(detail),
         actions: <Widget>[
-          FlatButton(
+          TextButton(
             child: Text('OK'),
             onPressed: () {
               Navigator.pop(context);
@@ -105,9 +105,11 @@ class WhatsNewPage extends StatelessWidget {
                 right: 10.0,
                 left: 10.0,
                 child: ListTile(
-                  title: RaisedButton(
+                  title: ElevatedButton(
                     child: buttonText,
-                    color: buttonColor ?? Colors.blue,
+                    style: ButtonStyle(
+                        backgroundColor: MaterialStateProperty.all(
+                            buttonColor ?? Colors.blue)),
                     onPressed: onButtonPressed != null
                         ? onButtonPressed
                         : () {
@@ -159,9 +161,12 @@ class WhatsNewPage extends StatelessWidget {
               right: 10.0,
               left: 10.0,
               child: ListTile(
-                title: RaisedButton(
+                title: ElevatedButton(
                   child: buttonText,
-                  color: buttonColor ?? Colors.blue,
+                  style: ButtonStyle(
+                    backgroundColor:
+                        MaterialStateProperty.all(buttonColor ?? Colors.blue),
+                  ),
                   onPressed: onButtonPressed != null
                       ? onButtonPressed
                       : () => Navigator.pop(context),

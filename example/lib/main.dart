@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter_whatsnew/flutter_whatsnew.dart';
 
 import 'dart:io' show Platform;
@@ -59,7 +58,7 @@ class HomeScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              RaisedButton(
+              ElevatedButton(
                 child: Text("Show Changelog"),
                 onPressed: () {
                   Navigator.push(
@@ -88,7 +87,7 @@ class HomeScreen extends StatelessWidget {
                 },
               ),
               Container(height: 50.0),
-              RaisedButton(
+              ElevatedButton(
                 child: Text("Show Changes"),
                 onPressed: () {
                   Navigator.push(
