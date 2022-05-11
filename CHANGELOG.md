@@ -1,3 +1,8 @@
+## 1.0.4
+
+* Update dependencies
+* Fix Flutter/Dart version
+
 ## 1.0.3
 
 * Adding Web Support
