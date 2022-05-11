@@ -1,12 +1,14 @@
 name: flutter_whatsnew
 description: A new Flutter package to show updates to users.
 version: 1.0.3
-author: Rody Davis <rody.davis.jr@gmail.com>
 homepage: https://github.com/fluttercommunity/flutter_whatsnew
+repository: https://github.com/fluttercommunity/flutter_whatsnew
+issues: https://github.com/fluttercommunity/flutter_whatsnew/issues
+
 maintainer: Rody Davis (@rodydavis)
 
 environment:
-  sdk: ">=2.0.0 <3.0.0"
+  sdk: ">=2.5.0 <3.0.0"
 
 dependencies:
   flutter:
